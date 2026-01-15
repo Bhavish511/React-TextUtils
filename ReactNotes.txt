@@ -1,0 +1,23 @@
+React:
+
+
+Props---> Read-only properties that are shared between components,
+	A parent component can send data to a child component.
+	<component key=value />
+
+	Types:
+	PropTypes--> A mechanism that ensures that the passed value is of the correct datatype.
+	
+		component.propTypes = {
+		   age: Proptypes.number
+		},
+	defaultProps--> Default values for the props in case they are not passed from the parent component
+		component.defaultProps = {
+		age : 0,
+		}	
+
+Conditional Rendering---> Allow you to control what gets rendered in your application based on certain conditions( show, hide, or change components).
+	--> Check the props value, and based on value render the specific values or things want to render.
+
+
+Rendering lists-->
