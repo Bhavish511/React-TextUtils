@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 
-
 export default function TextForm(props) {
     const handleUpClick = () => {
         // console.log("upper btn clicked");
@@ -36,10 +35,10 @@ export default function TextForm(props) {
 
   return (
     <>
-        <div className="container">
+        <div className="container" style={{color: props.mode==='dark' ?'white':'#042743'}}>
             <h1>{props.heading}</h1>    
             <div className="mb-3">
-            <textarea className="form-control" id="myBox" rows="8" value={text} onChange={handleOnChange}></textarea>
+            <textarea className="form-control" id="myBox" rows="8" style={{backgroundColor: props.mode==='dark' ?'gray':'white', color: props.mode==='dark' ?'white':'#042743'}} value={text} onChange={handleOnChange}></textarea>
             </div>
             <button className="btn btn-success mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
             <button className="btn btn-success mx-1" onClick={handleLoClick}>Convert to Lowercase</button>
@@ -47,7 +46,7 @@ export default function TextForm(props) {
             <button className="btn btn-success mx-1" onClick={handleCopy}>Copy Text</button>
             <button className="btn btn-success mx-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
         </div>
-        <div className="container">
+        <div className="container" style={{color: props.mode==='dark' ?'white':'#042743'}}>
             <h2>Your text summary</h2>
             <p>{text.split("").length ? text.split(" ").length : 0} words and {text.length} characters</p>
             <p>{0.008 * (text.split("").length ? text.split(" ").length : 0)} Minutes read</p>
