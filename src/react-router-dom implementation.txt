@@ -1,0 +1,104 @@
+// How react-router-dom version 6 is used for routing
+// previously in version 5 we used to do like below:
+// <Switch>
+//   <Route exact path="/about" component={About}/>
+//   <Route exact path="/" component={TextForm}/>
+// </Switch>
+
+// Now in version 6 we do like below:
+// <Routes>
+//   <Route path="/about" element={<About />}/>
+//   <Route path="/" element={<TextForm />}/>
+// </Routes>  
+// Definitely remember these changes while using react-router-dom
+// Links to be used instead of anchor tags <a> to avoid page reloads 
+// Example: <Link to="/about">About</Link> instead of <a href="/about">About</a>
+// Also remember to wrap the entire app in <Router> in order to use routing
+// Example: <Router> <App/> </Router>
+// Note:
+// In version 5, we used "BrowserRouter as Router", "Switch" and "component" prop in Route
+// Defination of above three in version 5:
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// <Router> ... </Router>
+// <Switch> ... </Switch>
+// <Route path="/about" component={About}/> 
+// <Route path="/" component={TextForm}/>
+// </Switch>
+// </Router>
+// Now in version 6, we use "Routes" and "element" prop in Route
+// Defination of above in version 6:
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// <Router> ... </Router>
+// <Routes> ... </Routes>
+// <Route path="/about" element={<About />}/> 
+// <Route path="/" element={<TextForm />}/>
+// </Routes>
+// </Router>
+// Summary of changes from version 5 to version 6 of react-router-dom:
+// 1. "Switch" is replaced with "Routes"
+// 2. "component" prop in Route is replaced with "element" prop
+// 3. "element" prop uses JSX syntax i.e. element={<ComponentName/>}
+// 4. "exact" keyword is removed as it is by default considered
+// Example of complete routing in version 6:
+// <Router>
+//   <Routes>
+//     <Route path="/about" element={<About />} />
+//     <Route path="/" element={<TextForm />} />
+//   </Routes>
+// </Router>
+// Remember these changes while working with react-router-dom version 6
+// Also refer to the official documentation for more details: https://reactrouter.com/docs/en/v6/getting-started/overview
+// Summary of differences between react-router-dom version 5 and version 6:
+// Version 5:
+// - Uses "Switch" to wrap Route components
+// - Uses "component" prop in Route to specify the component to render
+// - Requires "exact" keyword for exact path matching
+// Version 6:
+// - Replaces "Switch" with "Routes"
+// - Uses "element" prop in Route with JSX syntax to specify the component to render
+// - Exact path matching is default, so "exact" keyword is not needed 
+// Example code for version 6:
+// <Router>
+//   <Routes>
+//     <Route path="/about" element={<About />} />
+//     <Route path="/" element={<TextForm />} />
+//   </Routes>
+// </Router>
+// Make sure to adapt your code accordingly when upgrading from version 5 to version 6 of react-router-dom
+// Example:
+// Version 5:
+// <Switch>
+//   <Route exact path="/about" component={About}/>
+//   <Route exact path="/" component={TextForm}/>
+// </Switch>
+// Version 6:
+// <Routes>
+//   <Route path="/about" element={<About />} />
+//   <Route path="/" element={<TextForm />} />
+// </Routes>
+// Note the syntax changes and the removal of "exact" keyword
+// This will help in smooth transition and avoid errors while using react-router-dom version 6
+// Remember to check the official documentation for any additional changes or updates
+// In version 6, "Switch" is replaced with "Routes" and "component" is replaced with "element" also we have to use "element={<ComponentName/>}" syntax
+// In version 6, "exact" keyword is removed as it is by default considered
+// Link is to be used instead of anchor tags <a> to avoid page reloads
+// Example: <Link to="/about">About</Link> instead of <a href="/about">About</a>
+// Link also needs to be imported from react-router-dom
+// Example: import { Link } from "react-router-dom";
+// Link components also need to be wrapped inside <Router> to work properly
+// Links help in navigating between different routes without reloading the page
+// This improves user experience and performance of the application
+// Link components also provide additional features like active styling and prefetching
+// Make sure to use Link components for navigation in your React applications using react-router-dom
+// This will ensure smooth navigation and better user experience
+// Link components are an essential part of building single-page applications with React
+// They allow for seamless transitions between different views without full page reloads
+// Always remember to use Link components for navigation in your React applications
+// This will enhance the overall user experience and performance of your app
+// Link components are easy to use and integrate well with react-router-dom
+// They provide a simple way to navigate between different routes in your application
+// Link components also help in maintaining the state of the application during navigation
+// This is especially important in single-page applications where state management is crucial
+// Overall, using Link components from react-router-dom is a best practice for building React applications with routing
+// Link components improve navigation, user experience, and performance of your app
+// Link components are a key feature of react-router-dom and should be utilized in your React projects
