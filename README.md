@@ -1,18 +1,22 @@
 # TextUtils - Text Manipulation Tool
 
-TextUtils is a React-based single-page application (SPA) that provides a simple and efficient way to analyze and manipulate text. Whether you need to count words, convert text case, or remove extra spaces, TextUtils has you covered. It includes a Dark/Light mode toggle for a comfortable user experience.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
+
+TextUtils is a React-based single-page application (SPA) that provides a simple and efficient way to analyze and manipulate text. Whether you need to count words, convert text case, or remove extra spaces, TextUtils has you covered. It features a responsive design and a toggleable Dark/Light mode for a comfortable user experience.
 
 ## Features
 
--   **Text Analysis**: Instantly get word and character counts, along with an estimated reading time.
--   **Text Transformation**:
-    -   **Convert to Uppercase**: Transforms all text to UPPERCASE.
-    -   **Convert to Lowercase**: Transforms all text to lowercase.
-    -   **Clear Text**: Removes all text from the text area.
-    -   **Copy Text**: Copies the current text to your clipboard with a single click.
-    -   **Remove Extra Spaces**: Cleans up your text by removing unnecessary spaces between words.
--   **Dark/Light Mode**: Switch between dark and light themes to suit your preference and lighting conditions.
--   **Preview**: Real-time preview of your text.
+-   **📝 Text Analysis**: Instantly get word and character counts, along with an estimated reading time.
+-   **🔠 Text Transformation**:
+    -   **Uppercase**: Convert all text to UPPERCASE.
+    -   **Lowercase**: Convert all text to lowercase.
+    -   **Clear Text**: Instantly remove all content.
+    -   **Copy**: Copy processed text to clipboard with one click.
+    -   **Remove Extra Spaces**: Clean up text by removing multiple spaces.
+-   **🌓 Dark/Light Mode**: Toggle between themes for better visibility and reduced eye strain.
+-   **👀 Live Preview**: See your changes in real-time as you type.
 
 ## Tech Stack
 
@@ -22,45 +26,54 @@ TextUtils is a React-based single-page application (SPA) that provides a simple 
 
 ## Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Follow these steps to set up the project locally.
 
-### Available Scripts
+### Prerequisites
 
-In the project directory, you can run:
+-   Node.js (v14 or higher)
+-   npm (v6 or higher)
 
-### `npm start`
+### Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.  **Clone the repository**
+    ```bash
+    git clone <repository_url>
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.  **Navigate to the project directory**
+    ```bash
+    cd my-app
+    ```
 
-### `npm test`
+3.  **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Running the App
 
-### `npm run build`
+Start the development server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions are welcome! Please follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/YourFeature`).
+3.  Commit your changes (`git commit -m 'Add some feature'`).
+4.  Push to the branch (`git push origin feature/YourFeature`).
+5.  Open a Pull Request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is licensed under the MIT License.
 
 ## Author
 
-Created by Bhavish Kumar
+Created by **Bhavish Kumar**
