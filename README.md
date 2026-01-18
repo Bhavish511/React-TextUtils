@@ -1,8 +1,30 @@
-# Getting Started with Create React App
+# TextUtils - Text Manipulation Tool
+
+TextUtils is a React-based single-page application (SPA) that provides a simple and efficient way to analyze and manipulate text. Whether you need to count words, convert text case, or remove extra spaces, TextUtils has you covered. It includes a Dark/Light mode toggle for a comfortable user experience.
+
+## Features
+
+-   **Text Analysis**: Instantly get word and character counts, along with an estimated reading time.
+-   **Text Transformation**:
+    -   **Convert to Uppercase**: Transforms all text to UPPERCASE.
+    -   **Convert to Lowercase**: Transforms all text to lowercase.
+    -   **Clear Text**: Removes all text from the text area.
+    -   **Copy Text**: Copies the current text to your clipboard with a single click.
+    -   **Remove Extra Spaces**: Cleans up your text by removing unnecessary spaces between words.
+-   **Dark/Light Mode**: Switch between dark and light themes to suit your preference and lighting conditions.
+-   **Preview**: Real-time preview of your text.
+
+## Tech Stack
+
+-   **Frontend**: React.js
+-   **Routing**: React Router DOM
+-   **Styling**: Bootstrap 5
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -39,32 +61,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by Bhavish Kumar
