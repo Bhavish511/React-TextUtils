@@ -1,9 +1,4 @@
 # TextUtils - Text Manipulation Tool
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
-
 TextUtils is a React-based single-page application (SPA) that provides a simple and efficient way to analyze and manipulate text. Whether you need to count words, convert text case, or remove extra spaces, TextUtils has you covered. It features a responsive design and a toggleable Dark/Light mode for a comfortable user experience.
 
 ## Features
